@@ -1,0 +1,36 @@
+/* ©️ Copyright Oluwagbemiga 2023 */
+/* === Imports for all scss files ==== */
+
+// ANIMATIONS
+// @import './animations/keyframes';
+// @import './animations/transitions';
+
+// CORE
+@import './core/base';
+@import './core/layout';
+@import './core/mixins';
+@import './core/variables';
+
+// COMPONENTS
+@import './components/button';
+@import './components/card';
+@import './components/flex-box';
+@import './components/form';
+@import './components/grid';
+@import './components/icon';
+@import './components/modal';
+@import './components/navbar';
+// @import './components/scrollbar';
+@import './components/switch';
+
+// CUSTOMIZATIONS
+// @import './customizations/customizations';
+
+// PAGES
+@import './page/auth';
+// @import './pages/page';
+
+// UTILITIES
+@import './utilities/colors';
+@import './utilities/spacing';
+@import './utilities/text';

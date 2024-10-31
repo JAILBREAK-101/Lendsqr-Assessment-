@@ -1,0 +1,36 @@
+/* === Dynamic FlexBox layout maker: feel free to tweak to your satisfaction ==== */
+
+/* Add your own flex box styles here */
+
+/* === Feel free to customize your layout with the mixin below ==== */
+@mixin makeFlex($direction, $justify-content, $align-items) {
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+.flex-container {
+    display: flex;
+
+    @include respond(phone) {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+
+    @include respond(tablet-portrait) {
+        flex-direction: column;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    @include respond(tablet-landscape) {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    @include respond(large-desktop) {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,68 @@
+/* ©️ Copyright Oluwagbemiga 2023 */
+/* Base and Reset Styles for the application */
+
+/* Imports for the base styles */
+@import './variables';
+@import './mixins';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: $height;
+    font-size: $default-font-size;
+    scroll-behavior: smooth;
+    // media queries for screen-size come here
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: $min-height;
+}
+
+/* === reset styles ==== */
+::selection {
+    background-color: $selection-bg-color;
+    color: $selection-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+blockquote,
+pre,
+ul,
+q,
+s,
+samp,
+strong,
+sub,
+sup {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    padding: 0.8rem 1.2rem;
+    font-size: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+/* ©️ Copyright Oluwagbemiga 2023 */
+/* Layout for the application: you can add yours and modify the existing ones */
+
+// Main Layout of the Project's Pages
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column; // Depending on your application's layout, change the direction
+    height: 100%; // If it's inside the application container 
+}
+
+.d-flex {
+    display: flex;
+
+    &--center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--align-start {
+        align-items: flex-start;
+    }
+
+    &--align-end {
+        align-items: flex-end;
+    }
+
+    &--justify-start {
+        justify-content: flex-start;
+    }
+
+    &--justify-end {
+        justify-content: flex-end;
+    }
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+// add your own layouts below

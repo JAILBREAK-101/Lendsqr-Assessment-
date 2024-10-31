@@ -1,0 +1,32 @@
+/* Add your own grid styles here. */
+
+.grid-container {
+    display: grid;
+    vertical-align: middle;
+    align-items: center;
+    width: 100%;
+
+    &-col-1 {
+        @include create-grid($cols: 1);
+    }
+
+    &-col-2 {
+        @include create-grid($cols: 2);
+    }
+
+    &-col-3 {
+        @include create-grid($cols: 3);
+    }
+
+    &-col-4 {
+        @include create-grid($cols: 4);
+    }
+
+    &-col-5 {
+        @include create-grid($cols: 5);
+    }
+
+    &-col-6 {
+        @include create-grid($cols: 6);
+    }
+}

@@ -1,0 +1,65 @@
+/* Modal for the Application */
+$modal-box-shadow: 0 0 2px 0 rgba(1, 4, 2, 0.982);
+
+
+.modal {
+    position: fixed;
+    background-color: $green;
+    padding: 1rem 1.2rem;
+    color: white;
+    margin: 2rem;
+    border-radius: 20px;
+    bottom: 30rem;
+    z-index: 9999;
+    pointer-events: all;
+    translate: 0% 50%;
+    box-shadow: $modal-box-shadow;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    /* Using ASCII Characters */
+    &-close-button {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    /* Using Images as the close button */
+    &-close-image {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+
+    &-body {
+        display: flex;
+        flex-direction: column;
+
+        &-text {
+            max-width: 60ch;
+        }
+
+        // Any other modal element's styles should be added under here.
+    }
+
+    &-overlay {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: hsl(0, 0%, 0%, 0.6);
+        opacity: 0.8;
+        pointer-events: none;
+        z-index: 1000;
+    }
+
+    &-visible {
+        display: none;
+    }
+}

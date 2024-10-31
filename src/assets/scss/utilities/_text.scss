@@ -1,0 +1,197 @@
+/* ©️ Copyright Oluwagbemiga 2023 */
+// Reusable and modifiable, tweak to your satisfaction
+
+h1 {
+    font-size: 3.7rem !important // 3.7 * 16;
+}
+
+h2 {
+    font-size: 2.93rem !important // 2.93 * 16;
+}
+
+h3 {
+    font-size: 1.7rem !important // 1.7 * 16;
+}
+
+h4 {
+    font-size: 1.54rem !important // 1.54 * 16;
+}
+
+h5 {
+    font-size: 1.36rem !important; // 1.36 * 16
+}
+
+h6 {
+    font-size: 1.21rem !important // 1.36 * 16;
+}
+
+p,
+li {
+    font-weight: 400;
+    font-size: 1.31rem;
+}
+
+a {
+    font-size: 1.1rem;
+}
+
+// COLORS FOR THE TEXTS.
+
+// Change text colors based on your variables
+
+/* Uncomment after you've set the variables for this colors (This should be as a guide for setting them
+ * .text {
+    &-primary {
+        color: $primary-color !important;
+    }
+
+    &-primary-light {
+        color: $primary-color-light !important;
+    }
+
+    &-primary-deep {
+        color: $primary-color-active !important;
+    }
+
+    &-secondary {
+        color: $sunshade-2 !important;
+    }
+
+    &-secondary-light {
+        color: $sunshade-3 !important;
+    }
+
+    &-secondary-deep {
+        color: $sunshade-1 !important;
+    }
+
+    &-danger {
+        color: $red !important;
+    }
+
+    &-danger-light {
+        color: $red-hover !important;
+    }
+
+    &-danger-deep {
+        color: $red-deep !important;
+    }
+
+    &-gray-out {
+        color: $black-5 !important;
+    }
+
+    &-gray-out-light {
+        color: $black-6 !important;
+    }
+
+    &-gray-out-deep {
+        color: $black-4 !important;
+    }
+
+    &-light {
+        color: $white !important;
+    }
+
+    &-black {
+        color: $black !important;
+    }
+}
+*/
+
+.fw-very-light {
+    font-weight: 200 !important;
+}
+
+.fw-light {
+    font-weight: 400 !important;
+}
+
+.fw-semi-normal {
+    font-weight: 500 !important;
+}
+
+.fw-bold {
+    font-weight: 600 !important;
+}
+
+.fw-bolder {
+    font-weight: 700 !important;
+}
+
+.fw-boldest {
+    font-weight: 800 !important;
+}
+
+.fs-8 {
+    font-size: 8px !important;
+}
+
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-26 {
+    font-size: 26px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-34 {
+    font-size: 34px !important;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
+a:link {
+    // Link Not visited yet
+    text-decoration: none;
+}
+
+.line-height {
+    line-height: 1.5;
+}

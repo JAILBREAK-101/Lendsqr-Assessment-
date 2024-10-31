@@ -1,0 +1,166 @@
+/* === Custom Colors come in here: change as you desire ==== */
+.primary {
+
+    &-clr {
+        color: $primary-color;
+    }
+
+    &-bg-color {
+        background-color: $primary-color-background;
+    }
+
+    &-outline-clr {
+        color: $primary-color--outline;
+    }
+}
+
+.secondary {
+
+    &-clr {
+        color: $secondary-color;
+    }
+
+    &-bg-color {
+        background-color: $secondary-color-background;
+    }
+
+    &-outline-clr {
+        color: $secondary-color--outline;
+    }
+}
+
+.tetiary {
+
+    &-clr {
+        color: $tetiary-color;
+    }
+
+    &-bg-color {
+        background-color: $tetiary-color-background;
+    }
+
+    &-outline-clr {
+        color: $tetiary-color--outline;
+    }
+}
+
+.white {
+
+    &-clr {
+        color: $white;
+    }
+
+    &-bg-clr {
+        background-color: $white;
+    }
+}
+
+.black {
+
+    &-clr {
+        color: $black;
+    }
+
+    &-bg-clr {
+        background-color: $black;
+    }
+}
+
+.danger {
+
+    &-clr {
+        color: $danger;
+    }
+
+    &-bg-clr {
+        background-color: $danger;
+    }
+}
+
+.purple {
+
+    &-clr {
+        color: $purple;
+    }
+
+    &-bg-clr {
+        background-color: $purple;
+    }
+}
+
+.success {
+
+    &-clr {
+        color: $success;
+    }
+
+    &-bg-clr {
+        background-color: $success;
+    }
+}
+
+.green {
+
+    &-clr {
+        color: $green;
+    }
+
+    &-bg-clr {
+        background-color: $green;
+    }
+}
+
+.red {
+
+    &-clr {
+        color: $red;
+    }
+
+    &-bg-clr {
+        background-color: $red;
+    }
+}
+
+.yellow {
+
+    &-clr {
+        color: $yellow;
+    }
+
+    &-bg-clr {
+        background-color: $yellow;
+    }
+}
+
+.brown {
+
+    &-clr {
+        color: $brown;
+    }
+
+    &-bg-clr {
+        background-color: $brown;
+    }
+}
+
+.orange {
+
+    &-clr {
+        color: $orange;
+    }
+
+    &-bg-clr {
+        background-color: $orange;
+    }
+}
+
+.grey {
+
+    &-clr {
+        color: $grey;
+    }
+
+    &-bg-clr {
+        background-color: $grey;
+    }
+}

@@ -1,0 +1,44 @@
+.switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    margin: 0.7rem;
+}
+
+.switch-box {
+    border: 4px solid $secondary-color;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    padding: 0.4rem 0;
+    align-items: center;
+}
+
+.switch {
+    appearance: none;
+    -webkit-appearance: none;
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: grey;
+    cursor: pointer;
+
+    margin: 0;
+
+    transition: translate 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    &:checked {
+        translate: 40px;
+        background-color: black;
+    }
+}

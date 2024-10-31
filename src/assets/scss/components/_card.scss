@@ -1,0 +1,47 @@
+/* === Scss styles for Card Layout ==== */
+
+.card {
+    display: block;
+    margin: 0.5rem;
+    background-color: hsla(0, 0%, 100%, 0.57);
+    padding: 1.1rem;
+    border-radius: 10px;
+
+    &-header {
+        margin-bottom: 0.8rem;
+        max-width: 60ch;
+    }
+
+    &-body {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2px;
+
+
+        &_text {
+            max-width: 80ch;
+            margin-bottom: 15px;
+        }
+    }
+
+    &-footer {
+        display: block;
+
+        &_button {
+            width: 100%;
+        }
+
+        &--has-button-group {
+            display: flex;
+            flex-direction: row;
+            gap: 1.2rem;
+            align-items: center;
+
+            @include respond(phone) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+            }
+        }
+    }
+}

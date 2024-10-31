@@ -1,0 +1,97 @@
+/* ©️ Copyright Oluwagbemiga 2023 */
+/* Reusable Mixins for the project - you can add yours */
+
+// you can change the breakpoints
+$breakpoint-small: 600px;
+$breakpoint-medium-small: 750px;
+$breakpoint-medium: 980px;
+$breakpoint-large: 1280px;
+$breakpoint-extra-large: 1440px;
+
+// CONDITION FOR THE MIXINS SIZE  - you can tweak the unit values to fit yours
+@mixin screenWidth($size, $type: max, $pixels: 600) {
+    @if $size=="very-small" {
+        @media screen and (max-width: 375px) {
+            @content;
+        }
+    }
+
+    @if $size=="small" {
+        @media screen and (max-width: $breakpoint-small) {
+            @content;
+        }
+    }
+
+    @if $size=="medium-small" {
+        @media screen and (max-width: $breakpoint-medium-small) {
+            @content;
+        }
+    }
+
+    @if $size=="medium" {
+        @media screen and (max-width: $breakpoint-medium) {
+            @content;
+        }
+    }
+
+    @if $size=="large" {
+        @media screen and (max-width: $breakpoint-large) {
+            @content;
+        }
+    }
+
+    @if $size=="extra-large" {
+        @media screen and (max-width: $breakpoint-extra-large) {
+            @content;
+        }
+    }
+
+    @if $size=="custom" {
+
+        // set their own media queries
+        @media screen and (#{$type+-width}: #{$pixels + px}) {
+            @content;
+        }
+    }
+}
+
+// based on the screen size - Set Media Queries according to the orientation of the screen 
+@mixin respond($breakpoint) {
+    @if $breakpoint==phone {
+
+        // @media only screen and (max-width: calc(37.5em / 16)) {
+        @media only screen and (max-width: 480px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==tablet-portrait {
+
+        // @media only screen and (max-width: calc(56.25em / 16)) {
+        @media only screen and (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==tablet-landscape {
+
+        // @media only screen and (max-width: calc(75em / 16)) {
+        @media only screen and (max-width: 900px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==large-desktop {
+
+        // @media only screen and (max-width: calc(112.5em / 16)) {
+        @media only screen and (max-width: 1280px) {
+            @content;
+        }
+    }
+}
+
+@mixin create-grid($cols: $cols) {
+    grid-template-columns: repeat(1fr, $cols);
+}
+
+// add your mixins below here

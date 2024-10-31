@@ -1,0 +1,90 @@
+/* ©️ Copyright Oluwagbemiga 2023 */
+/* === Set and Modifyable variables ==== */
+
+/* === Very Basic Variables ==== */
+
+// default variables
+$default-font-size: 16px;
+$min-height: 100%;
+
+// reset variables
+$width: 100%;
+$height: 100%;
+$selection-bg-color: white;
+$selection-color: white;
+
+/* === Colors (you can change the colors) ==== */
+
+/* Primary Color */
+
+$primary-color: hsl(51, 100%, 50%);
+$primary-color--outline: hsl(51, 100%, 50%, 0.811)
+/*rgba(255, 255, 255, 0.811)*/
+;
+$primary-color--hover: hsl(51, 100%, 50%, 0.51)
+/*rgba(255, 255, 255, 0.51)*/
+;
+$primary-color--active-focus: hsl(51, 100%, 50%, 0.7)
+/*rgba(255, 255, 255, 0.7)*/
+;
+$primary-color-background: hsl(51, 100%, 50%, 0.3)
+/*rgba(255, 255, 255, 0.1)*/
+;
+
+/* Secondary Color */
+
+$secondary-color: hsl(180, 100%, 50%);
+$secondary-color--outline: hsl(180, 100%, 50%, 0.811)
+/*rgba(255, 255, 255, 0.811)*/
+;
+$secondary-color--hover: hsl(180, 100%, 50%, 0.51)
+/*rgba(255, 255, 255, 0.51)*/
+;
+$secondary-color--active-focus: hsl(180, 100%, 50%, 0.7)
+/*rgba(255, 255, 255, 0.7)*/
+;
+$secondary-color-background: hsl(180, 100%, 50%, 0.3)
+/*rgba(255, 255, 255, 0.1)*/
+;
+
+/* Tetiary Color */
+
+$tetiary-color: hsl(120, 61%, 50%);
+$tetiary-color--outline: hsl(120, 61%, 50%, 0.811)
+/*rgba(255, 255, 255, 0.811)*/
+;
+$tetiary-color--hover: hsl(120, 61%, 50%, 0.51)
+/*rgba(255, 255, 255, 0.51)*/
+;
+$tetiary-color--active-focus: hsl(120, 61%, 50%, 0.7)
+/*rgba(255, 255, 255, 0.7)*/
+;
+$tetiary-color-background: hsl(120, 61%, 50%, 0.3)
+/*rgba(255, 255, 255, 0.1)*/
+;
+
+// Colors provided for the reason of choice, feel free to remove them if they aren't needed
+$black: hsl(0, 0%, 0%);
+$white: hsl(0, 0%, 100%);
+$red: hsl(0, 100%, 50%);
+$blue: hsl(240, 100%, 50%);
+$green: hsl(120, 100%, 25%);
+$yellow: hsl(60, 100%, 50%);
+$orange: hsl(39, 100%, 50%);
+$purple: hsl(300, 100%, 25%);
+$brown: hsl(0, 59%, 41%);
+$grey: hsl(0, 0%, 50%);
+
+$page-bg-color: hsla(0, 0%, 100%, 0.85);
+$text-color: hsl(0, 3%, 6%);
+$text-color--bold: hsl(0, 0%, 0%);
+$text-color--light: hsl(0, 2%, 9%);
+
+// Form color Variables
+$success: hsl(120, 95%, 22%);
+$success--hover: hsl(120, 95%, 22%, 0.6);
+$success--outline: hsl(120, 95%, 22%, 0.81);
+
+$danger: rgb(166, 5, 5);
+$danger--hover: rgb(166, 5, 5, 0.6);
+$danger--outline: rgb(166, 5, 5, 0.81);

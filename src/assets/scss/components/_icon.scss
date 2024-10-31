@@ -1,0 +1,39 @@
+/* SCSS Icon Styles */
+
+/* === This should be for the Main Logo === */
+.logo {
+    width: 50px;
+    height: 50px;
+
+    /* === If Logo has a link, use this class ==== */
+    &_link {
+        width: inherit;
+        height: inherit;
+
+        &-image {
+            max-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    /* === If Logo doesn't have a link, just use this style ==== */
+    &-image {
+        max-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+}
+
+.icon-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
